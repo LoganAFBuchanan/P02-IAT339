@@ -1,0 +1,341 @@
+<!-- Initial HTML Shell generated here: http://htmlshell.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>P02 - Styleguide - IAT339</title>
+
+    <meta name="author" content="Logan Buchanan">
+    <meta name="description" content="IAT 339 P01">
+    <meta name="keywords" content="Logan, Buchanan, Tori, Weir, IAT 339, SFU">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/grids.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/amplify.css">
+
+
+  </head>
+  <body>
+    <div class="grid-row main">
+      <div class="one-3 col">
+        <div class="side-menu">
+          <header>
+            <h1><a href="index.html">P02 - IAT 339</a></h1>
+            <h3>Tori Weir & Logan Buchanan</h3>
+          </header>
+          <nav>
+            <h2>Ampl!fy</h2>
+            <ul>
+                <li>
+                  <a href="styleguide.html">
+                    <h3>Style Guide<i class="material-icons">keyboard_arrow_right</i></h3>
+                    <p>website/styleguide.html</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="wireframes.html">
+                    <h3>Wireframes<i class="material-icons">keyboard_arrow_right</i></h3>
+                    <p>website/wireframes.html</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="citations.html">
+                    <h3>Citations<i class="material-icons">keyboard_arrow_right</i></h3>
+                    <p>website/citations.html</p>
+                  </a>
+                </li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="content" class="content two-3 col sub-grid">
+        <section class="quick-info">
+          <h1>The Ampl!fy Style Guide</h1>
+        </section>
+        <section class="main-content">
+          <h2>Interactive Elements</h2>
+    			<section id="in-text-links">
+    				<h3>In-text Links</h3>
+    					<h4>CSS Selector(s)</h4>
+    					<code>a</code>
+
+    					<h4>Sample Code</h4>
+    					<code>&lt;a href=&quot;#&quot;&gt;In-text Link&lt;/a&gt;</code>
+
+    					<h4>What It Looks Like</h4>
+    					<p><a href="styleguide.html" class="amplify">In-text Link</a></p>
+    			</section>
+
+          <section id="nav-buttons">
+    				<h3>Navigation Buttons</h3>
+    					<h4>CSS Selector(s)</h4>
+    					<code>.button-nav</code>
+
+    					<h4>Sample Code</h4>
+    					<code>&lt;a href=&quot;#&quot; class=&quot;button-nav&quot;&gt;Navigation Button&lt;/a&gt;</code>
+
+    					<h4>What It Looks Like</h4>
+    					<p><a href="styleguide.html" class="button-nav add-border">Navigation Button</a></p>
+    					<p class="note">Note: A border is used here to show the element padding; the button is borderless in the actual nav.</p>
+    			</section>
+
+    			<section id="form-buttons">
+    				<h3>Form Buttons (Submit/Reset)</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>input[type=submit], input[type=reset]</code>
+
+    				<h4>Sample Code</h4>
+    				<code class="linebreaks">&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+    &lt;input type=&quot;reset&quot; value=&quot;Reset&quot;&gt;</code>
+
+    				<h4>What It Looks Like</h4>
+    				<p>
+    					<input type="submit" value="Submit">
+    					<input type="reset" value="Reset">
+    				</p>
+    			</section>
+
+    			<section id="text-input">
+    				<h3>Text Input</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>input[type=text]</code>
+
+    				<h4>Sample Code</h4>
+    				<code>&lt;input type=&quot;text&quot; name=&quot;text-input&quot; value=&quot;Type here.&quot;&gt;</code>
+
+    				<h4>What It Looks Like</h4>
+    					<form>
+    						Leave a Comment
+    						<input type="text" name="text-input" placeholder="Type here.">
+    					</form>
+    					<p class="note">Form title is not part of the text input, but added to give context.</p>
+    			</section>
+
+    			<h2>Text Styling</h2>
+    			<section id="headings">
+    				<h3>Headings</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>h1, h2, h3</code>
+
+    				<h4>Sample Code</h4>
+    				<code class="linebreaks">&lt;h1&gt;Heading 1&lt;/h1&gt;
+    &lt;h2&gt;Heading 2&lt;/h2&gt;
+    &lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+
+    				<h4>What It Looks Like</h4>
+    					<h1 class="amplify">Heading 1</h1>
+    					<h2 class="amplify">Heading 2</h2>
+    					<h3 class="amplify">Heading 3</h3>
+    			</section>
+
+    			<section id="paragraphs">
+    				<h3>Paragraphs</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>p</code>
+
+    				<h4>Sample Code</h4>
+    				<code>&lt;p&gt;You are only limited by your imagination. You can create the world you want to see and be a part of. You have that power. The light is your friend. Preserve it. In nature, dead trees are just as normal as live trees. The shadows are just like the highlights, but we're going in the opposite direction. A thin paint will stick to a thick paint. Tree trunks grow however makes them happy. Let's get crazy. The least little bit can do so much.&lt;/p&gt;</code>
+
+    				<h4>What It Looks Like</h4>
+    				<p class="amplify">
+    					You are only limited by your imagination. You can create the world you want to see and be a part of. You have that power. The light is your friend. Preserve it. In nature, dead trees are just as normal as live trees. The shadows are just like the highlights, but we're going in the opposite direction. A thin paint will stick to a thick paint. Tree trunks grow however makes them happy. Let's get crazy. The least little bit can do so much.
+    				</p>
+    			</section>
+
+    			<section id="bulleted-lists">
+    				<h3>Bulleted Lists</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>ul, li</code>
+
+    				<h4>Sample Code</h4>
+    				<code class="linebreaks">&lt;ul&gt;
+      &lt;li&gt;First bullet&lt;/li&gt;
+      &lt;li&gt;Second bullet&lt;/li&gt;
+      &lt;li&gt;Third bullet&lt;/li&gt;
+    &lt;/ul&gt;</code>
+
+    				<h4>What It Looks Like</h4>
+    					<ul class="amplify">
+    						<li>First bullet</li>
+    						<li>Second bullet</li>
+    						<li>Third bullet</li>
+    					</ul>
+    			</section>
+
+    			<section id="numbered-lists">
+    				<h3>Numbered Lists</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>ol, li</code>
+
+    				<h4>Sample Code</h4>
+    				<code class="linebreaks">&lt;ol&gt;
+      &lt;li&gt;First item&lt;/li&gt;
+      &lt;li&gt;Second item&lt;/li&gt;
+      &lt;li&gt;Third item&lt;/li&gt;
+    &lt;/ol&gt;</code>
+
+    				<h4>What It Looks Like</h4>
+    					<ol class="amplify">
+    						<li>First item</li>
+    						<li>Second item</li>
+    						<li>Third item</li>
+    					</ol>
+    			</section>
+
+    			<h2>Combined Elements</h2>
+    			<section id="main-nav">
+    				<h3>Main Navigation</h3>
+    					<h4>CSS Selector(s)</h4>
+    					<code>.nav-main, .button-nav</code>
+
+    					<h4>Sample Code</h4>
+    					<code class="linebreaks">&lt;nav class=&quot;nav-main&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;button-nav&quot;&gt;About&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;button-nav&quot;&gt;Exhibits&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;button-nav&quot;&gt;Events&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;button-nav&quot;&gt;Artists&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;button-nav&quot;&gt;Contact&lt;/a&gt;
+    &lt;/nav&gt;</code>
+
+    					<h4>What It Looks Like</h4>
+    					<nav class="main-nav">
+    						<a href="styleguide.html" class="button-nav">About</a>
+    						<a href="styleguide.html" class="button-nav">Exhibits</a>
+    						<a href="styleguide.html" class="button-nav">Events</a>
+    						<a href="styleguide.html" class="button-nav">Artists</a>
+    						<a href="styleguide.html" class="button-nav">Contact</a>
+    					</nav>
+    			</section>
+
+    			<section id="product-listing">
+    				<h3>Product Listing</h3>
+    				<h4>CSS Selector(s)</h4>
+    				<code>.box, box-event, .box-event-image, .box-event-text, h2, h3, p, a, .button-tickets</code>
+
+    				<h4>Sample Code</h4>
+    				<code>&lt;div class=&quot;box-event box&quot;&gt; &lt;div class=&quot;box-event-image&quot;&gt; &lt;img src=&quot;img/event-card.png&quot; alt=&quot;illustration of two femmes touching foreheads&quot;&gt; &lt;/div&gt; &lt;div class=&quot;box-event-text&quot;&gt; &lt;h2&gt;Artist Talk: Emery Hunt&lt;/h2&gt; &lt;h3&gt;February 14th, 4:30pm - 5:20pm | $14 - $30&lt;/h3&gt; &lt;p&gt;Sometimes you learn more from your mistakes than you do from your masterpieces. We don't have anything but happy trees here. We don't really know where this goes - and I'm not sure we really care. Let your imagination be your guide. Let's give him a friend too. Everybody needs a friend. &lt;a href=&quot;#&quot; class=&quot;button-tickets&quot;&gt;Get Tickets&lt;/a&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt;
+    				</code>
+
+    				<h4>What It Looks Like</h4>
+    					<div class="box-event box">
+    						<div class="box-event-image">
+    							<img src="assets/img/event-card.png" alt="illustration of two femmes touching foreheads">
+    						</div>
+    						<div class="box-event-text">
+    							<h2 class="amplify">Artist Talk: Emery Hunt</h2>
+    							<h3 class="amplify">February 14th, 4:30pm - 5:20pm | $14 - $30</h3>
+    							<p class="amplify">Sometimes you learn more from your mistakes than you do from your masterpieces. We don't have anything but happy trees here. We don't really know where this goes - and I'm not sure we really care. Let your imagination be your guide. Let's give him a friend too. Everybody needs a friend.
+    							<a href="styleguide.html" class="button-tickets">Get Tickets</a>
+    							</p>
+    						</div>
+    					</div>
+    			</section>
+
+          <section id="grid-system">
+            <!-- Adapted from https://css-tricks.com/dont-overthink-flexbox-grids/ -->
+            <h2>Grid System</h2>
+            <h3>Usable Classes</h3>
+            <div class="grid-row example">
+              <div class="one-1 col"><h4>.one-1</h4></div>
+            </div>
+            <div class="grid-row example">
+              <div class="one-2 col"><h4>.one-2</h4></div>
+              <div class="one-2 col"><h4>.one-2</h4></div>
+            </div>
+            <div class="grid-row example">
+              <div class="one-3 col"><h4>.one-3</h4></div>
+              <div class="one-3 col"><h4>.one-3</h4></div>
+              <div class="one-3 col"><h4>.one-3</h4></div>
+            </div>
+            <div class="grid-row example">
+              <div class="two-3 col"><h4>.two-3</h4></div>
+              <div class="one-3 col"><h4>.one-3</h4></div>
+            </div>
+            <div class="grid-row example">
+              <div class="one-4 col"><h4>.one-4</h4></div>
+              <div class="one-4 col"><h4>.one-4</h4></div>
+              <div class="one-4 col"><h4>.one-4</h4></div>
+              <div class="one-4 col"><h4>.one-4</h4></div>
+            </div>
+            <div class="grid-row example">
+              <div class="three-4 col"><h4>.three-4</h4></div>
+              <div class="one-4 col"><h4>.one-4</h4></div>
+            </div>
+            <h4>What It Looks Like</h4>
+            <img src="assets/img/mockup-mid-fi.png" alt="a medium fidelity mockup of the website">
+
+            <h4>Code Example</h4>
+            <code>
+              <span class="highlight">&lt;div class=&quot;grid-row&quot;&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-1 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-1<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;div class=&quot;grid-row&quot;&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-2 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-2<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-2 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-2<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;div class=&quot;grid-row&quot;&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-3 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-3<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-3 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-3<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-3 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-3<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;div class=&quot;grid-row&quot;&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;two-3 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.two-3<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-3 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-3<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;div class=&quot;grid-row&quot;&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-4 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-4<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-4 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-4<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-4 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-4<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-4 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-4<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;div class=&quot;grid-row&quot;&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;three-4 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.three-4<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+                <span class="highlight">&lt;div class=&quot;one-4 col&quot;&gt;</span><span class="highlight">&lt;h4&gt;</span>.one-4<span class="highlight">&lt;/h4&gt;</span><span class="highlight">&lt;/div&gt;</span><br>
+              <span class="highlight">&lt;/div&gt;</span>
+
+            </code>
+
+          </section>
+
+          <section id="colour-swatches">
+            <h2>Colour Swatches</h2>
+
+            <div class="grid-row colour-swatches">
+              <div class="col one-4 colour-1">
+                <span>#171717</span>
+              </div>
+              <div class="col one-4 colour-2">
+                <span>#FFFFFF</span>
+              </div>
+              <div class="col one-4 colour-3">
+                <span>#E8E8E8</span>
+              </div>
+              <div class="col one-4 colour-4">
+                <span>#53D8FB</span>
+              </div>
+            </div>
+
+          </section>
+
+        </section>
+      </div>
+
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+
+</html>

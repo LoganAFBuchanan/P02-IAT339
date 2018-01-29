@@ -1,0 +1,68 @@
+
+
+/* FLEX GRID SECTION FOR STYLEGUIDE */
+
+.grid-row{
+  display:block;
+  position:relative;
+  margin-top:0.5rem;
+}
+
+.col{
+  position:relative;
+}
+
+.example .col{
+  background-color: #AA4B41;
+  opacity:0.8;
+}
+
+.example .col h4{
+  text-align:center;
+  color:white;
+  margin-top:0.5rem;
+}
+
+@media(min-width:55em){
+  .grid-row{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .grid-row.main{
+    justify-content: unset;
+    margin-top:0;
+  }
+
+  .main .one-3{
+    max-width: 24.25rem;
+  }
+
+  .one-1, .two-2, .three-3, .four-4{
+    width:100%;
+  }
+
+  .one-2{
+    width:49%;
+  }
+
+  .one-3{
+    width:32%;
+  }
+
+  .two-3{
+    width:66%;
+  }
+
+  .one-4{
+    width:24%;
+  }
+
+  .two-4{
+    width:49%;
+  }
+
+  .three-4{
+    width:74.6%;
+  }
+}

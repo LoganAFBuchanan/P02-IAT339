@@ -1,3 +1,4 @@
+/* logo image in header */
 .logo-amplify{
   width:8rem;
   height:auto;
@@ -5,6 +6,7 @@
   margin-top:0.25rem;
 }
 
+/* MEDIA QUERIES */
 @media(min-width: 48.438em){ /* 775 px */
   nav.nav-main {
     display: inline-block;

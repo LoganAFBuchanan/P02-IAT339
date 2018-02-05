@@ -99,6 +99,7 @@ img {
 
 .button-nav:hover{
   color: #53D8FB;
+  text-decoration:none;
 }
 
 /* this is to add a border to the example navigation button so that you can see its' padding */

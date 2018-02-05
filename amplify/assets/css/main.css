@@ -84,6 +84,7 @@ img {
 /* BUTTONS */
 
 .button-nav{
+  text-align:center;
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
@@ -111,6 +112,7 @@ img {
   font-size: 0.85rem;
   letter-spacing: 0.1rem;
   font-weight: 800;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: black;

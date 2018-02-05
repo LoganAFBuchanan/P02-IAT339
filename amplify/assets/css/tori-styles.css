@@ -5,6 +5,10 @@
   margin-top:0.25rem;
 }
 
-@media(min-width:48.438em){
-
-}
+@media(min-width: 48.438em){ /* 775 px */
+  nav.nav-main {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+  }

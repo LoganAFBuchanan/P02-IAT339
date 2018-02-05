@@ -1,0 +1,43 @@
+
+nav.nav-main{
+  display:none;
+}
+
+h2.logo{
+  text-align:center;
+}
+
+.banner{
+  padding:0 1rem;
+}
+
+.grid-row.events{
+  padding:0 1rem;
+}
+
+@media(min-width: 46.875em){ /* 750 px */
+  nav.nav-main {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+  }
+
+  h2.logo {
+    text-align:left;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .grid-row.banner {
+    height: 25rem;
+  }
+
+  .banner .one-2 {
+    position: relative;
+    top: 35%;
+    margin-left: 3rem;
+  }
+
+}

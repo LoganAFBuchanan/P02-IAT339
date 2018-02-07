@@ -44,6 +44,13 @@ h2.logo{
   border:black solid;
 }
 
+.event-list, .event-list-title{
+  margin: 2rem 2rem;
+  max-width:93.75rem; /* 1500 px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media(min-width: 55em){
   h2.logo {
     text-align:left;
@@ -62,7 +69,12 @@ h2.logo{
   }
 
 
-
+  .event-list, .event-list-title{
+    margin: 2rem 2rem;
+    max-width:93.75rem; /* 1500 px */
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 }

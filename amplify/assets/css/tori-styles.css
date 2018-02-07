@@ -3,7 +3,7 @@
   width:8rem;
   height:auto;
   margin-left: 1.5rem;
-  margin-top:0.25rem;
+  margin-top:0.5rem;
 }
 
 .nav-main{
@@ -13,6 +13,28 @@
 /* added class to grid row containing header to allow for sticky header */
 .grid-row.header{
   flex: 0 0 auto;
+}
+
+/* styling for left content-right image page template (about, membership, contact pages) */
+.grid-row.content-image{
+  padding:0rem 1rem;
+  margin-top:5rem;
+  /* sets max width (same as Logan's styling) + centers content when exceeded */
+  max-width:93.75rem; /* 1500 px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col.one-2.left-content{
+    padding-top:2rem;
+}
+
+.col.one-2.left-content p{
+    max-width:38em;
+}
+
+.col.one-2.left-content h3:not(:first-child){
+    margin-top:2rem;
 }
 
 /* overflow hidden for sticky header
@@ -38,3 +60,12 @@ body{
     right: 0;
     top: 1rem;
   }
+
+/* adds top padding when image is pushed to the right column
+  note: more media queries are in the 'grids.css' sheet b/c they'd only work there (sorry)
+*/
+@media(min-width: 55em){ /* 880 px */
+  .col.one-2.left-content{
+    padding-top:5rem;
+  }
+}

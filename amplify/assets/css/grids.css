@@ -50,7 +50,19 @@ body, .content{
   justify-content: space-between;
 }
 
-@media(min-width:55em){
+@media(min-width:55em){ /* 880px */
+
+  /* tori added these media queries here b/c they weren't working properly in their seperate style sheet */
+  .col.one-2.right-image{
+    order:2;
+    padding-right:2rem;
+  }
+
+  .col.one-2.left-content{
+    padding-right:5rem;
+    padding-left:5rem;
+  }
+  /* end of tori's additions */
 
   .grid-row{
     display:flex;

@@ -107,6 +107,7 @@ h2.logo{
   .event-list .button-tickets{
     display:inline-block;
     margin-left:1rem;
+    width:auto;
   }
 
   .event-info h3{

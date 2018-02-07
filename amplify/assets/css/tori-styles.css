@@ -15,11 +15,14 @@
   flex: 0 0 auto;
 }
 
-/* overflow hidden for sticky header */
+/* overflow hidden for sticky header
 body{
   overflow:hidden;
 }
 
+ Using overflow hidden on the body restricts the scrolling on the webpage.
+
+*/
 /* content container to allow for scrolling within content section */
 .content{
   flex: 1 1 auto;

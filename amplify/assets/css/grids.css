@@ -3,8 +3,12 @@
 /* FLEX GRID SECTION FOR STYLEGUIDE */
 
 /* needed to make scroll work w/ sticky header */
-html, body, .content{
+body, .content{
   height: 100%;
+}
+
+.content{
+  margin-top:3.25rem;
 }
 
 .grid-row{
@@ -15,6 +19,7 @@ html, body, .content{
 
 .col{
   position:relative;
+  width:100%;
 }
 
 .example .col{
@@ -28,7 +33,25 @@ html, body, .content{
   margin-top:0.5rem;
 }
 
+.grid-row.header{
+  margin-top:0;
+}
+
+/* Using position fixed from sticky header, avoids scrolling issues */
+.header .one-1{
+  position:fixed;
+  background-color:white;
+  z-index:100;
+}
+
+/* Maintains flex on header nav due to fixed positioning causing display bugs */
+.grid-row.header{
+  display:flex;
+  justify-content: space-between;
+}
+
 @media(min-width:55em){
+
   .grid-row{
     display:flex;
     justify-content: space-between;

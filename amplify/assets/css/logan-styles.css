@@ -7,15 +7,44 @@ h2.logo{
   text-align:center;
 }
 
+.grid-row.banner {
+  height: 90vh;
+}
+
 .banner{
-  padding:0 1rem;
+  background-image: url('https://picsum.photos/1500/500');
+  background-size: cover;
 }
 
+/* Sets a max width and centers the list when the display gets too large */
 .grid-row.events{
-  padding:0 1rem;
+  padding:0.5rem 1rem;
+  max-width:93.75rem; /* 1500 px */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media(min-width: 46.875em){ /* 750 px */
+/* Custom banner text box styles */
+.banner .box-event-text{
+  position:absolute;
+  bottom:0;
+  padding:1rem;
+  background-color:#53D8FB;
+}
+
+.banner .box-event-text h2{
+  margin-top:0;
+}
+
+.banner .box-event-text h3{
+  color:white;
+}
+
+.banner .box-event-text .button-tickets{
+  border:black solid;
+}
+
+@media(min-width: 55em){
   h2.logo {
     text-align:left;
     margin-top: 0;
@@ -29,8 +58,11 @@ h2.logo{
 
   .banner .one-2 {
     position: relative;
-    top: 35%;
-    margin-left: 3rem;
+    margin-left:1rem;
   }
+
+
+
+
 
 }

@@ -31,7 +31,7 @@ h2.logo{
 /* Sets a max width and centers the list when the display gets too large */
 .grid-row.events{
   padding:0.5rem 1rem;
-  max-width:93.75rem; /* 1500 px */
+  max-width:75rem; /* 1200 px */
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,7 +79,8 @@ h2.logo{
 
   .banner .one-2 {
     position: relative;
-    margin-left:1rem;
+
+    max-width:37.5rem; /* 600px */
   }
 
 

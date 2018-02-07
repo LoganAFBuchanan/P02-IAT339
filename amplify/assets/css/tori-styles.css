@@ -1,0 +1,37 @@
+/* logo image in header */
+.logo-amplify{
+  width:8rem;
+  height:auto;
+  margin-left: 1.5rem;
+  margin-top:0.25rem;
+}
+
+.nav-main{
+  padding: 0rem 1.5rem;
+}
+
+/* added class to grid row containing header to allow for sticky header */
+.grid-row.header{
+  flex: 0 0 auto;
+}
+
+/* overflow hidden for sticky header */
+body{
+  overflow:hidden;
+}
+
+/* content container to allow for scrolling within content section */
+.content{
+  flex: 1 1 auto;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* MEDIA QUERIES */
+@media(min-width: 62.188em){ /* 995 px */
+  nav.nav-main {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+  }

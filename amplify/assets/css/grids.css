@@ -2,6 +2,11 @@
 
 /* FLEX GRID SECTION FOR STYLEGUIDE */
 
+/* needed to make scroll work w/ sticky header */
+html, body, .content{
+  height: 100%;
+}
+
 .grid-row{
   display:block;
   position:relative;

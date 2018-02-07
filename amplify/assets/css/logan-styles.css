@@ -16,13 +16,6 @@ h2.logo{
 }
 
 @media(min-width: 46.875em){ /* 750 px */
-  nav.nav-main {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 1rem;
-  }
-
   h2.logo {
     text-align:left;
     margin-top: 0;

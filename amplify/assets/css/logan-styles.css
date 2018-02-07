@@ -30,8 +30,8 @@ h2.logo{
 
 /* Sets a max width and centers the list when the display gets too large */
 .grid-row.events{
-  padding:0.5rem 1rem;
-  max-width:75rem; /* 1200 px */
+  padding:0rem 2rem 5rem;
+  max-width:93.75rem; /* 1200 px */
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,12 +83,22 @@ h2.logo{
     max-width:37.5rem; /* 600px */
   }
 
+  .events-container{
+    padding:5rem;
+  }
+
 
   .event-list, .event-list-title{
     padding: 1rem 1rem 1rem 1rem;
     max-width:93.75rem; /* 1500 px */
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .events-page.content{
+    padding-top:5rem;
+    padding-left:5rem;
+    padding-right:5rem;
   }
 
   .event-list-title{

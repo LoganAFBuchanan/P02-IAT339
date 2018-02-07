@@ -1,4 +1,16 @@
 
+h1, h2, h3, h4, li{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+h4{
+  font-size: 0.775em;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  margin: 0.25rem 0 0 0;
+}
+
 nav.nav-main{
   display:none;
 }
@@ -44,6 +56,15 @@ h2.logo{
   border:black solid;
 }
 
+.event-list, .event-list-title {
+  padding: 1rem 0.5rem;
+}
+
+.event-list-title{
+  padding-bottom:0;
+}
+
+
 @media(min-width: 55em){
   h2.logo {
     text-align:left;
@@ -62,7 +83,35 @@ h2.logo{
   }
 
 
+  .event-list, .event-list-title{
+    padding: 1rem 1rem 1rem 1rem;
+    max-width:93.75rem; /* 1500 px */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .event-list-title{
+    padding-top:1.5rem;
+    padding-bottom:0rem;
+  }
 
 
+  .event-list h4{
+    margin-top:0;
+  }
+
+  .event-list p{
+    max-width: 37.5rem; /* 600px */
+  }
+
+  .event-list .button-tickets{
+    display:inline-block;
+    margin-left:1rem;
+    width:auto;
+  }
+
+  .event-info h3{
+    display:inline-block;
+  }
 
 }

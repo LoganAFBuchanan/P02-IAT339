@@ -1,4 +1,8 @@
-/* logo image in header */
+em{
+  color:#53D8FB;
+  font-style: normal;
+}
+
 .logo-amplify{
   width:8rem;
   height:auto;
@@ -17,7 +21,7 @@
 
 /* styling for left content-right image page template (about, membership, contact pages) */
 .grid-row.content-image{
-  padding:0rem 1rem;
+  padding:0rem 2rem 5rem;
   margin-top:5rem;
   /* sets max width (same as Logan's styling) + centers content when exceeded */
   max-width:93.75rem; /* 1500 px */
@@ -25,16 +29,28 @@
   margin-right: auto;
 }
 
+.col.one-2.right-image h3{
+  margin-top:1rem;
+}
+
+.col.one-2.right-image p{
+  margin-top:0.5rem;
+}
+
 .col.one-2.left-content{
     padding-top:2rem;
 }
 
-.col.one-2.left-content p{
-    max-width:38em;
+.col.one-2.left-content h2{
+    padding-top:2rem;
 }
 
 .col.one-2.left-content h3:not(:first-child){
     margin-top:2rem;
+}
+
+.col.one-2.left-content p{
+    max-width:38em;
 }
 
 /* overflow hidden for sticky header

@@ -67,7 +67,8 @@ ul{
 
 ul li{
   color: #53D8FB;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 1.35rem;
 }
 
 ol li{
@@ -110,7 +111,7 @@ img {
   border: 1px solid rgba(0,0,0, 0.1);
 }
 
-.button-tickets{
+.button-tickets, .button-membership{
   display: block;
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
@@ -121,7 +122,6 @@ img {
   text-decoration: none;
   color: black;
   background: #53D8FB;
-  width:7.5rem;
 
   padding: 0.25rem 0.5rem;
   margin:1rem 0;
@@ -130,7 +130,15 @@ img {
   cursor: pointer;
 }
 
-.button-tickets:hover{
+.button-tickets{
+  width:7.5rem;
+}
+
+.button-membership{
+  width:9.75rem;
+}
+
+.button-tickets:hover, .button-membership:hover{
   background:#4CC5E5;
   text-decoration: underline;
   }

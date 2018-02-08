@@ -191,7 +191,7 @@ form{
     color: black;
 }
 
-input[type=text] {
+input[type=text], input[type=number], input[type=email] {
   display:block;
   background: #E8E8E8;
   margin:0.5rem 0rem;
@@ -200,7 +200,7 @@ input[type=text] {
 	font-weight: 400;
   letter-spacing: 0.02rem;
   text-transform: none;
-  color: rgba(0,0,0,0.25);
+  
 }
 
 /* NAV START */

@@ -14,6 +14,19 @@ em{
   padding: 0rem 1.5rem;
 }
 
+/* artist card labels */
+.artist-card-label{
+  position:absolute;
+  bottom:6rem;
+  padding:0.5rem;
+  background-color:#000000;
+}
+
+.artist-card-label h2{
+  color:#53D8FB;
+  margin:0;
+}
+
 /* added class to grid row containing header to allow for sticky header */
 .grid-row.header{
   flex: 0 0 auto;
@@ -27,6 +40,43 @@ em{
   max-width:93.75rem; /* 1500 px */
   margin-left: auto;
   margin-right: auto;
+}
+
+.grid-row.artists{
+  padding:0rem 2rem 5rem;
+  margin-top:5rem;
+  /* sets max width + centers content when exceeded */
+  max-width:77.5rem; /* 1240 px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-row.artists{
+  flex-wrap: wrap;
+}
+
+.grid-row.artists img{
+  width:20rem;
+  margin-bottom:3rem;
+  position: relative;
+}
+
+.grid-row.art-grid{
+  margin-bottom:5rem;
+}
+
+.col.two-3.right-content{
+  padding-left:5rem;
+}
+
+.col.two-3.right-content h1{
+  margin-bottom:0;
+}
+
+.col.two-3.right-content h2{
+  margin-top:0.5rem;
+  margin-bottom:3rem;
+  font-size:1.5rem;
 }
 
 .col.one-2.right-image h3{
@@ -49,7 +99,7 @@ em{
     margin-top:2rem;
 }
 
-.col.one-2.left-content p{
+.col.one-2.left-content p, .col.two-3.right-content p{
     max-width:38em;
 }
 

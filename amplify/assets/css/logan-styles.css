@@ -64,6 +64,10 @@ h2.logo{
   padding-bottom:0;
 }
 
+form h3{
+  margin-bottom:1rem;
+}
+
 
 @media(min-width: 55em){
   h2.logo {
@@ -124,5 +128,7 @@ h2.logo{
   .event-info h3{
     display:inline-block;
   }
+
+  
 
 }

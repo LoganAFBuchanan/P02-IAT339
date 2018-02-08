@@ -58,7 +58,7 @@ body, .content{
     padding-right:2rem;
   }
 
-  .col.one-2.left-content{
+  .col.one-2.left-content, .grid-row.artists, .grid-row.content-image.artist-single, .grid-row.art-grid{
     padding-right:5rem;
     padding-left:5rem;
   }

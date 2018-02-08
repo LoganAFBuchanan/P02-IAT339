@@ -24,7 +24,7 @@ h2.logo{
 }
 
 .banner{
-  background-image: url('https://picsum.photos/1500/500');
+  background-image: url("http://payload138.cargocollective.com/1/9/316459/5071398/Mona2web_3000_c.jpg");
   background-size: cover;
 }
 
@@ -129,6 +129,6 @@ form h3{
     display:inline-block;
   }
 
-  
+
 
 }

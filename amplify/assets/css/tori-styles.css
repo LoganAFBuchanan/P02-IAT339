@@ -113,7 +113,7 @@ em{
     padding-top:2rem;
 }
 
-.col.one-2.left-content h3:not(:first-child){
+.col.one-2.left-content h3.top-margin{
     margin-top:2rem;
 }
 

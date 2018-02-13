@@ -50,6 +50,13 @@ body, .content{
   justify-content: space-between;
 }
 
+
+@media(min-width:25em) and (max-width:55em){ /* 400px */
+  .grid-row.artists .one-3{
+    width:18rem;
+  }
+}
+
 @media(min-width:55em){ /* 880px */
 
   /* tori added these media queries here b/c they weren't working properly in their seperate style sheet */

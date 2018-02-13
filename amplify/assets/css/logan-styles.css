@@ -53,7 +53,17 @@ h2.logo{
 }
 
 .banner .box-event-text .button-tickets{
-  border:black solid;
+  border:black solid 2px;
+}
+
+.button-tickets.more-button{
+  background:none;
+}
+
+.button-tickets.more-button:hover{
+  background: #4CC5E5;
+  text-decoration: underline;
+  color:black;
 }
 
 .event-list, .event-list-title {
@@ -83,8 +93,8 @@ form h3{
 
   .banner .one-2 {
     position: relative;
-
     max-width:37.5rem; /* 600px */
+    padding-left: 7rem;
   }
 
   .events-container{
@@ -121,13 +131,16 @@ form h3{
 
   .event-list .button-tickets{
     display:inline-block;
-    margin-left:1rem;
+
     width:auto;
   }
 
-  .event-info h3{
+  .event-info a h3{
     display:inline-block;
+    color:black;
   }
+
+
 
 
 

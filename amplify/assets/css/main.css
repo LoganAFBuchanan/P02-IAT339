@@ -127,7 +127,7 @@ img {
 }
 
 .button-tickets, .button-membership{
-  display: block;
+  display:inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
   letter-spacing: 0.1rem;
@@ -137,20 +137,18 @@ img {
   text-decoration: none;
   color: black;
   background: #53D8FB;
-
-  padding: 0.25rem 0.5rem;
-  margin:1rem 0;
+  margin:0.5rem 0;
+  padding: 0.25rem 1.25rem;
   border: 0;
 
   cursor: pointer;
+
 }
 
-.button-tickets{
-  width:7.5rem;
-}
 
-.button-membership{
-  width:9.75rem;
+
+.button-tickets, .button-membership{
+
 }
 
 .button-tickets:hover, .button-membership:hover{

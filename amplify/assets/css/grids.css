@@ -50,6 +50,14 @@ body, .content{
   justify-content: space-between;
 }
 
+/* These rules are specifically applied to the artists page to allow flex wrap to perform as expected */
+.grid-row.artists .one-3{
+  width:18rem;
+}
+
+.grid-row.artists{
+  justify-content: space-evenly;
+}
 
 @media(min-width:25em) and (max-width:55em){ /* 400px */
   .grid-row.artists .one-3{

@@ -156,7 +156,7 @@ img {
   text-decoration: underline;
   }
 
-input{
+input, textarea{
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
@@ -175,6 +175,8 @@ input{
 
 input[type=submit] {
   background: #53D8FB;
+  padding: 0.5rem 3rem;
+  margin: 0.75rem 0rem;
 }
 
 input[type=submit]:hover{
@@ -203,7 +205,7 @@ form{
     color: black;
 }
 
-input[type=text], input[type=number], input[type=email] {
+input[type=text], input[type=number], input[type=email], textarea {
   display:block;
   background: #E8E8E8;
   margin:0.5rem 0rem;

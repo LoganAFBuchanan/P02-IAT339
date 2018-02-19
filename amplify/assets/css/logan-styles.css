@@ -78,6 +78,10 @@ form h3{
   margin-bottom:1rem;
 }
 
+.payment-form .grid-row{
+  margin-top:1.5rem;
+}
+
 
 @media(min-width: 55em){
   h2.logo {

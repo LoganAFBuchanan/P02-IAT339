@@ -52,7 +52,7 @@ body, .content{
 
 /* These rules are specifically applied to the artists page to allow flex wrap to perform as expected */
 .grid-row.artists .one-3{
-  width:18rem;
+  width:20rem;
 }
 
 .grid-row.artists{

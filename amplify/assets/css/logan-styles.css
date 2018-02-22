@@ -26,6 +26,7 @@ h2.logo{
 .banner{
   background-image: url("http://payload138.cargocollective.com/1/9/316459/5071398/Mona2web_3000_c.jpg");
   background-size: cover;
+  background-position: right;
 }
 
 /* Sets a max width and centers the list when the display gets too large */

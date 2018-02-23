@@ -245,4 +245,12 @@ h2.logo{
 
 /* NAV END */
 
-/* PRODUCT LISTING */
+@media(max-width: 40em){
+  html{
+    font-size:0.75rem;
+  }
+
+  .content{
+    margin-top:0;
+  }
+}

@@ -33,19 +33,19 @@ body, .content{
   margin-top:0.5rem;
 }
 
-.grid-row.header{
+header.grid-row{
   margin-top:0;
 }
 
 /* Using position fixed from sticky header, avoids scrolling issues */
-.header .one-1{
+header .one-1{
   position:fixed;
   background-color:white;
   z-index:100;
 }
 
 /* Maintains flex on header nav due to fixed positioning causing display bugs */
-.grid-row.header{
+header.grid-row{
   display:flex;
   justify-content: space-between;
 }

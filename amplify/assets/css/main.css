@@ -244,7 +244,7 @@ nav.nav-mobile img{
   min-width: 12rem;
   position: fixed;
   right: 0;
-
+  overflow-y: scroll;
   background: white;
 
   transition:right .5s ease;
@@ -254,6 +254,35 @@ nav.nav-mobile img{
   padding: 2rem;
 }
 
+/* NAV END */
+
+/* Footer Styles START */
+
+footer{
+  padding: 2rem 2rem;
+  background-color: #e8e8e8;
+}
+
+footer ul{
+  -webkit-padding-start:20px;
+}
+
+footer li{
+  padding:0.2rem 0rem;
+}
+
+footer .col.one-3{
+  border-bottom:1px dotted #868686;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .col.one-3:last-child{ /* Removes borders on the last element in the footer */
+  border:none;
+}
+
+/* Footer Styles END */
+
 /* Generic Classes */
 
 .hidden{
@@ -261,11 +290,11 @@ nav.nav-mobile img{
 }
 
 .hide-right{
-  right:-50%;
+  right:-200%;
   transition:right .5s ease;
 }
 
-@media(min-width: 62.188em){ /*  */
+@media(min-width: 55em){ /*  */
   nav.nav-main {
     display: inline-block;
     position: absolute;
@@ -277,12 +306,30 @@ nav.nav-mobile img{
     display:none;
   }
 
+  .hide-right{
+    right:-100%;
+    transition:right .5s ease;
+  }
+
   h2.logo {
     text-align:left;
     margin-top: 0;
     padding-top: 0.5rem;
     padding-left: 1rem;
   }
+
+  footer{
+    padding: 2rem 7rem;
+  }
+
+  footer .col.one-3{
+    border-bottom:none;
+    border-right:1px dotted #868686;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+
 }
 
 /* NAV END */

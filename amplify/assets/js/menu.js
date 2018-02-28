@@ -5,6 +5,9 @@ var menuToggle = document.querySelector(".menu-toggle");
 var menuItems = document.querySelector(".mobile-menu-items");
 var mainContent = document.querySelector(".content");
 
+var menuIconSrc = "assets/images/menu-icon.svg";
+var closeIconSrc = "assets/images/close-icon.svg";
+
 hideMenu();
 
 
@@ -36,6 +39,8 @@ function hideMenu(){
   menuItems.classList.add("hide-right");
   console.log("Mobile Menu items are hidden!");
   menuItems.setAttribute("aria-hidden", "true");
+
+  menuToggle.setAttribute("src", menuIconSrc);
 }
 
 function showMenu(){
@@ -43,4 +48,6 @@ function showMenu(){
   menuItems.classList.remove("hide-right");
   console.log("Mobile Menu items are Revealed!");
   menuItems.setAttribute("aria-hidden", "false");
+
+  menuToggle.setAttribute("src", closeIconSrc);
 }

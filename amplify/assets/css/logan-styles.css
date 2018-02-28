@@ -29,13 +29,7 @@ h2.logo{
   background-position: right;
 }
 
-/* Sets a max width and centers the list when the display gets too large */
-.grid-row.events{
-  padding:0rem 2rem 5rem;
-  max-width:93.75rem; /* 1200 px */
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* Custom banner text box styles */
 .banner .box-event-text{
@@ -83,6 +77,10 @@ form h3{
   margin-top:1.5rem;
 }
 
+.grid-row.events .col.one-2{
+  padding:1rem;
+}
+
 
 @media(min-width: 55em){
   h2.logo {
@@ -90,6 +88,18 @@ form h3{
     margin-top: 0;
     padding-top: 0.5rem;
     padding-left: 1rem;
+  }
+
+  /* Sets a max width and centers the list when the display gets too large */
+  .grid-row.events{
+    padding:0rem 2rem 5rem;
+    max-width:93.75rem; /* 1200 px */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-row.events .col.one-2{
+    padding:0rem;
   }
 
   .grid-row.banner {

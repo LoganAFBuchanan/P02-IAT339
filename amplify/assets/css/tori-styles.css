@@ -88,7 +88,8 @@ em{
 }
 
 .col.two-3.right-content{
-  padding-left:5rem;
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 .col.two-3.right-content h1{
@@ -148,6 +149,7 @@ body{
     right: 0;
     top: 1rem;
   }
+}
 
 /* adds top padding when image is pushed to the right column
   note: more media queries are in the 'grids.css' sheet b/c they'd only work there (sorry)
@@ -155,5 +157,9 @@ body{
 @media(min-width: 55em){ /* 880 px */
   .col.one-2.left-content{
     padding-top:5rem;
+  }
+
+  .col.two-3.right-content {
+    padding-left: 5rem;
   }
 }

@@ -244,7 +244,7 @@ nav.nav-mobile img{
   min-width: 12rem;
   position: fixed;
   right: 0;
-
+  overflow-y: scroll;
   background: white;
 
   transition:right .5s ease;
@@ -261,6 +261,14 @@ nav.nav-mobile img{
 footer{
   padding: 2rem 2rem;
   background-color: #e8e8e8;
+}
+
+footer ul{
+  -webkit-padding-start:20px;
+}
+
+footer li{
+  padding:0.2rem 0rem;
 }
 
 footer .col.one-3{
@@ -286,7 +294,7 @@ footer .col.one-3:last-child{ /* Removes borders on the last element in the foot
   transition:right .5s ease;
 }
 
-@media(min-width: 62.188em){ /*  */
+@media(min-width: 55em){ /*  */
   nav.nav-main {
     display: inline-block;
     position: absolute;

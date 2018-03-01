@@ -10,13 +10,6 @@ h1, h2, h4, li{
   font-weight: 800;
 }
 
-a, p{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  line-height: 1.35rem;
-  text-decoration: none;
-}
-
 h1{
   font-size: 2.5em;
   letter-spacing: 0.025rem;
@@ -56,6 +49,33 @@ h4{
   margin: 0.25rem 0 0 0;
 }
 
+h5{
+  display:inline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  color: #53D8FB;
+  margin:0.5rem 0;
+  padding: 0.25rem 0.7rem 0rem 0rem;
+  border: 0;
+}
+
+.banner h5{
+  color: white;
+}
+
+.banner .button-info:hover{
+  color:white;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.35rem;
+  text-decoration: none;
+}
+
 a.in-text{
   letter-spacing: 0.02rem;
   padding: 0rem 0.2rem;
@@ -79,6 +99,10 @@ a:active, a:focus{
 }
 
 p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.35rem;
+  text-decoration: none;
   letter-spacing: 0.02rem;
   line-height: 1.45rem;
 }
@@ -152,6 +176,28 @@ img {
   color: white;
   text-decoration: none;
 }
+
+.button-info{
+  display:inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  margin:0.5rem 0;
+  padding: 0.25rem 1.25rem;
+  border: 0;
+
+  cursor: pointer;
+}
+
+.button-info:hover{
+  color: #53D8FB;
+}
+
 
 input, textarea{
   display: inline-block;

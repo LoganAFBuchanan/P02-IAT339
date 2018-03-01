@@ -127,7 +127,7 @@ em{
   background-image: url('../images/membership_1.jpg');
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: 50% -13rem;
+  background-position: 50% -10rem;
 }
 
 #contact-image img{
@@ -149,23 +149,23 @@ em{
 
 #artist-1-image img{
   background-image: url('../images/artist-card-choplogik.png');
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position:0 2rem;
+  background-position: 50% -10rem;
 }
 
 #exhibit-1-image img{
   background-image: url('../images/main-card-phantasmagoria.png');
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position:0 1rem;
+  background-position: 50% -12rem;
 }
 
 #event-1-image img{
   background-image: url('../images/main-card-nomi-talk.png');
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position:0 0rem;
+  background-position: 50% -15rem;
 }
 
 .col.one-2.left-content{

@@ -118,18 +118,54 @@ em{
 */
 .col.one-2.right-image img, .col.one-3.left-image img{
   object-position: -99999px 99999px;
-  height: 20rem;
+  height: 15rem;
   background-attachment: fixed;
+
 }
 
 #membership-image img{
   background-image: url('../images/membership_1.jpg');
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
+  background-position: 50% -13rem;
 }
 
 #contact-image img{
   background-image: url('../images/contact.jpg');
+}
+
+#about-image img{
+  background-image: url('../images/aboutus.jpg');
+}
+
+#payment-image img{
+  background-image: url('../images/feedback.jpg');
+}
+
+#feedback-image img{
+  background-image: url('../images/lauren-ys-banner-image.jpg');
+  background-position: right;
+}
+
+#artist-1-image img{
+  background-image: url('../images/artist-card-choplogik.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:0 2rem;
+}
+
+#exhibit-1-image img{
+  background-image: url('../images/main-card-phantasmagoria.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:0 1rem;
+}
+
+#event-1-image img{
+  background-image: url('../images/main-card-nomi-talk.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:0 0rem;
 }
 
 .col.one-2.left-content{
@@ -188,5 +224,11 @@ body{
     object-position: 0px 0px;
     height: auto;
 
+  }
+
+  /* This removes some visual bugs from specific images */
+
+  #artist-1-image img, #exhibit-1-image img, #event-1-image img{
+    background-image: none;
   }
 }

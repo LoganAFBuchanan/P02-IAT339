@@ -61,6 +61,11 @@ h5{
   border: 0;
 }
 
+em{
+  color:#53D8FB;
+  font-style: normal;
+}
+
 .banner h5{
   color: white;
 }
@@ -133,6 +138,17 @@ img {
 }
 
 /* BUTTONS */
+
+.logo-amplify{
+  width:8rem;
+  height:auto;
+  margin-left: 1.5rem;
+  margin-top:0.5rem;
+}
+
+.nav-main{
+  padding: 0rem 1.5rem;
+}
 
 .button-nav{
   text-align:center;
@@ -263,10 +279,53 @@ textarea{
   height:4rem;
 }
 
+/* Artist Card Styles START */
+
+/* artist card labels */
+.artist-card-label{
+  position:absolute;
+  bottom:6rem;
+  padding:0.5rem;
+  background-color:#000000;
+}
+
+.artist-card-label h2{
+  color:#53D8FB;
+  margin:0;
+}
+
+.artist-card-label h2:hover{
+  color: #ffffff;
+}
+
+.box-event-text h1{
+  margin-top:0rem;
+  margin-bottom:0rem;
+  padding-bottom:0;
+}
+
+.box-event-text h3{
+  margin-bottom:0.5rem;
+}
+
+.box-event-text p{
+  margin-top:0.5rem;
+}
+
+.box-event-text .button-tickets{
+  margin-bottom:0rem;
+}
+
+/* Artist Card Styles END */
+
 /* NAV START */
 
 nav.nav-main{
   display:none;
+}
+
+.nav-main{
+  padding: 0rem 1.5rem;
 }
 
 h2.logo{
@@ -293,11 +352,16 @@ nav.nav-mobile img{
   overflow-y: scroll;
   background: white;
 
-  transition:right .5s ease;
+  transition:right .3s ease;
 }
 
 .mobile-menu-items a.button-nav{
   padding: 2rem;
+}
+
+/* added class to grid row containing header to allow for sticky header */
+.grid-row.header{
+  flex: 0 0 auto;
 }
 
 /* NAV END */
@@ -401,6 +465,126 @@ form h3{
 
 /* Form Styles END */
 
+/* Artist's Page Styles START */
+
+/* styling for left content-right image page template (about, membership, contact pages) */
+.grid-row.content-image{
+  padding:0rem 2rem 5rem;
+  margin-top:5rem;
+  /* sets max width (same as Logan's styling) + centers content when exceeded */
+  max-width:93.75rem; /* 1500 px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-row.artists{
+  padding:0rem 2rem 5rem;
+  margin-top:5rem;
+  /* sets max width + centers content when exceeded */
+  max-width:77.5rem; /* 1240 px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-row.artists{
+  flex-wrap: wrap;
+}
+
+.grid-row.artists img{
+  width:20rem;
+  margin-bottom:3rem;
+  position: relative;
+}
+
+.grid-row.art-grid{
+  margin-bottom:5rem;
+}
+/* Artist's Page Styles END */
+
+/* Single Page Styles START */
+
+.col.two-3.right-content{
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+.col.two-3.right-content h1{
+  margin-bottom:0;
+}
+
+.col.two-3.right-content h2{
+  margin-top:0.5rem;
+  margin-bottom:3rem;
+  font-size:1.5rem;
+}
+
+.col.one-2.right-image h3{
+  margin-top:1rem;
+}
+
+.col.one-2.right-image p{
+  margin-top:0.5rem;
+}
+
+.col.one-2.left-content{
+    padding-top:2rem;
+}
+
+.col.one-2.left-content h2{
+    padding-top:2rem;
+}
+
+.col.one-2.left-content h3.top-margin{
+    margin-top:2rem;
+}
+
+.col.one-2.left-content p, .col.two-3.right-content p{
+    max-width:38em;
+}
+
+
+
+/*
+    This selector and the following ids allow the floating right and left images to collapse into fixed background elements
+    Adapted from Jeremy Banks' answer here: https://stackoverflow.com/questions/18481310/hide-the-src-image-in-an-img-element-but-show-its-background-image
+
+*/
+.col.one-2.right-image img, .col.one-3.left-image img{
+  object-position: -99999px 99999px;
+  height: 15rem;
+  background-attachment: fixed;
+
+}
+
+#contact-image img{
+  background-image: url('../images/contact.jpg');
+}
+
+#about-image img{
+  background-image: url('../images/aboutus.jpg');
+}
+
+#payment-image img{
+  background-image: url('../images/feedback.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-position: 50% -24rem;
+}
+
+#feedback-image img{
+  background-image: url('../images/lauren-ys-banner-image.jpg');
+  background-position: right;
+}
+
+#artist-1-image img, #exhibit-1-image img, #event-1-image img, #membership-image img{
+  background-image: none;
+  object-position: 0 0;
+  height:auto;
+  max-width:20rem;
+}
+
+/* Single Page Styles END */
+
 /* Generic Classes */
 
 .hidden{
@@ -410,6 +594,22 @@ form h3{
 .hide-right{
   right:-200%;
   transition:right .5s ease;
+}
+
+/* content container to allow for scrolling within content section */
+.content{
+  flex: 1 1 auto;
+  position: relative;
+}
+
+/* MEDIA QUERIES */
+@media(min-width: 62.188em){ /* 995 px */
+  nav.nav-main {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+  }
 }
 
 
@@ -517,12 +717,36 @@ form h3{
 
   /* Additional  Styles By Logan END */
 
-
-
-
 }
 
-/* NAV END */
+/* adds top padding when image is pushed to the right column
+  note: more media queries are in the 'grids.css' sheet b/c they'd only work there (sorry)
+*/
+@media(min-width: 55em){ /* 880 px */
+  .col.one-2.left-content{
+    padding-top:5rem;
+  }
+
+  .col.two-3.right-content {
+    padding-left: 5rem;
+  }
+
+  .col.one-2.right-image img, .col.one-3.left-image img{
+    object-position: 0px 0px;
+    height: auto;
+
+  }
+
+  /* This removes some visual bugs from specific images */
+
+  #artist-1-image img, #exhibit-1-image img, #event-1-image img{
+    background-image: none;
+  }
+
+  #membership-image img{
+    max-width:100%;
+  }
+}
 
 @media(max-width: 40em){
   html{

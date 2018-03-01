@@ -441,7 +441,12 @@ footer a:hover{
 }
 /* Main Banner Styles END */
 
+
 /* Main Event List Styles START */
+
+.events-page.content{
+  padding:5rem 2rem 2rem 2rem;
+}
 
 .button-cta.more-button{
   background:none;
@@ -770,11 +775,13 @@ form h3{
   }
 }
 
-@media(max-width: 40em){
-  html{
-    /*font-size:0.75rem;*/
+@media(min-width: 40em){
+  .events-page.content{
+    padding:2rem 2rem 2rem 2rem;
   }
+}
 
+@media(max-width: 40em){
   .content{
     margin-top:0;
   }

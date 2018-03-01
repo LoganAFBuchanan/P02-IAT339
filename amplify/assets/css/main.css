@@ -214,7 +214,13 @@ input[type=text], input[type=number], input[type=email], textarea {
   font-weight: 400;
   letter-spacing: 0.02rem;
   text-transform: none;
+  width:100%;
+  height:2rem;
+  font-size:1.5rem;
+}
 
+textarea{
+  height:4rem;
 }
 
 /* NAV START */
@@ -261,6 +267,7 @@ nav.nav-mobile img{
 footer{
   padding: 2rem 2rem;
   background-color: #e8e8e8;
+  margin-top:2rem;
 }
 
 footer ul{
@@ -293,6 +300,7 @@ footer .col.one-3:last-child{ /* Removes borders on the last element in the foot
   right:-200%;
   transition:right .5s ease;
 }
+
 
 @media(min-width: 55em){ /*  */
   nav.nav-main {
@@ -329,6 +337,10 @@ footer .col.one-3:last-child{ /* Removes borders on the last element in the foot
     padding-bottom: 1rem;
   }
 
+
+  .col.input-spacing{
+    width:47%;
+  }
 
 }
 

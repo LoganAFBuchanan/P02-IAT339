@@ -412,7 +412,24 @@ footer a:hover{
   position:absolute;
   bottom:0;
   padding:1rem;
+  padding-bottom:0.5rem;
   background-color:#53D8FB;
+}
+
+.banner h5{
+  color: white;
+}
+
+.banner p{
+  margin-bottom: 0.5rem;
+}
+
+.banner .button-info{
+  margin-bottom:0;
+}
+
+.banner .button-info:hover{
+  color:white;
 }
 
 .banner .box-event-text h2{
@@ -422,11 +439,6 @@ footer a:hover{
 .banner .box-event-text h3{
   color:white;
 }
-
-.banner .box-event-text .button-tickets{
-  border:black solid 2px;
-}
-
 /* Main Banner Styles END */
 
 /* Main Event List Styles START */
@@ -678,6 +690,9 @@ form h3{
     padding:5rem;
   }
 
+  .events-container .col.one-2{
+    margin-bottom:3rem;
+  }
 
   .event-list, .event-list-title{
     padding: 1rem 1rem 1rem 1rem;
@@ -697,7 +712,6 @@ form h3{
     padding-bottom:0rem;
   }
 
-
   .event-list h4{
     margin-top:0;
   }
@@ -706,7 +720,7 @@ form h3{
     max-width: 37.5rem; /* 600px */
   }
 
-  .event-list .button-tickets{
+  .event-list .button-cta{
     display:inline-block;
 
     width:auto;

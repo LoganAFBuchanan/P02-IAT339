@@ -140,6 +140,8 @@ em{
 
 #payment-image img{
   background-image: url('../images/feedback.jpg');
+  background-size: cover;
+    background-position: 50% -24rem;
 }
 
 #feedback-image img{
@@ -151,14 +153,14 @@ em{
   background-image: url('../images/artist-card-choplogik.png');
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: 50% -10rem;
+  background-position: 50% -2rem;
 }
 
 #exhibit-1-image img{
   background-image: url('../images/main-card-phantasmagoria.png');
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: 50% -10rem;
+  background-position: 50% -5rem;
 }
 
 #event-1-image img{

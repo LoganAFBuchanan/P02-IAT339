@@ -123,12 +123,6 @@ em{
 
 }
 
-#membership-image img{
-  background-image: url('../images/membership_1.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: 50% -10rem;
-}
 
 #contact-image img{
   background-image: url('../images/contact.jpg');
@@ -150,26 +144,13 @@ em{
   background-position: right;
 }
 
-#artist-1-image img{
-  background-image: url('../images/artist-card-choplogik.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: 50% -2rem;
+#artist-1-image img, #exhibit-1-image img, #event-1-image img, #membership-image img{
+  background-image: none;
+  object-position: 0 0;
+  height:auto;
+  max-width:20rem;
 }
 
-#exhibit-1-image img{
-  background-image: url('../images/main-card-phantasmagoria.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: 50% -5rem;
-}
-
-#event-1-image img{
-  background-image: url('../images/main-card-nomi-talk.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: 50% -15rem;
-}
 
 .col.one-2.left-content{
     padding-top:2rem;
@@ -233,5 +214,9 @@ body{
 
   #artist-1-image img, #exhibit-1-image img, #event-1-image img{
     background-image: none;
+  }
+
+  #membership-image img{
+    max-width:100%;
   }
 }

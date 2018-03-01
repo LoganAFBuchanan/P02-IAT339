@@ -491,10 +491,12 @@ form h3{
 }
 
 .grid-row.artists img{
-  width:20rem;
+  width:100%;
   margin-bottom:3rem;
   position: relative;
 }
+
+
 
 .grid-row.art-grid{
   margin-bottom:5rem;
@@ -745,6 +747,12 @@ form h3{
 
   #membership-image img{
     max-width:100%;
+  }
+
+  .grid-row.artists img{
+    width:20rem;
+    margin-bottom:3rem;
+    position: relative;
   }
 }
 

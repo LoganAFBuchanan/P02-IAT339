@@ -53,11 +53,11 @@ header.grid-row{
 
 /* These rules are specifically applied to the artists page to allow flex wrap to perform as expected */
 .grid-row.artists .one-3{
-  width:20rem;
+  width:100%;
 }
 
 .grid-row.artists{
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .grid-row.events .col.one-2{
@@ -84,6 +84,10 @@ header.grid-row{
     padding-left:5rem;
   }
   /* end of tori's additions */
+
+  .grid-row.artists .one-3{
+    width:20rem;
+  }
 
   .grid-row{
     display:flex;

@@ -2,7 +2,6 @@
   Styling for the site elements. Remove .amplify class when using this for the actual site.
 */
 
-
 /* TEXT STYLING */
 
 h1.amplify{
@@ -44,7 +43,7 @@ a.amplify{
 }
 
 a.amplify:hover{
-  text-decoration: underline;
+  color: white;
 }
 
 a.amplify:active, a.amplify:focus{
@@ -107,28 +106,27 @@ img {
   border: 1px solid rgba(0,0,0, 0.1);
 }
 
-.button-tickets{
-  display: block;
+.button-cta{
+  display:inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
   letter-spacing: 0.1rem;
   font-weight: 800;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
   background: #53D8FB;
-  width:7.5rem;
-
-  padding: 0.25rem 0.5rem;
-  margin:1rem 0;
+  margin:0.5rem 0;
+  padding: 0.25rem 1.25rem;
   border: 0;
 
   cursor: pointer;
 }
 
-.button-tickets:hover{
+.button-cta:hover{
   background:#4CC5E5;
-  text-decoration: underline;
+  color: white;
   }
 
 input{
@@ -154,7 +152,7 @@ input[type=submit] {
 
 input[type=submit]:hover{
   background:#4CC5E5;
-    text-decoration: underline;
+  color:white;
   }
 
 input[type=reset] {
@@ -162,8 +160,8 @@ input[type=reset] {
 }
 
 input[type=reset]:hover {
-  background: #D3D3D3;
-  text-decoration: underline;
+  background: rgba(0,0,0,0.25);
+  color: white;
 }
 
 /* TEXT INPUT (+FORM) STYLING */

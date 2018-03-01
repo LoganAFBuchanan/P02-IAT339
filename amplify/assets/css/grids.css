@@ -60,6 +60,11 @@ header.grid-row{
   justify-content: space-evenly;
 }
 
+.grid-row.events .col.one-2{
+  padding:1rem;
+  box-sizing: border-box;
+}
+
 @media(min-width:25em) and (max-width:55em){ /* 400px */
   .grid-row.artists .one-3{
     width:18rem;

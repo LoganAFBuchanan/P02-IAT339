@@ -80,6 +80,7 @@ a:active, a:focus{
 
 p{
   letter-spacing: 0.02rem;
+  line-height: 1.45rem;
 }
 
 ul{
@@ -87,9 +88,9 @@ ul{
 }
 
 ul li{
-  color: #53D8FB;
-  font-weight: 500;
-  line-height: 1.35rem;
+  color: black;
+  font-weight: 700;
+  line-height: 1.5rem;
 }
 
 ol li{

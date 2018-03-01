@@ -7,7 +7,7 @@
 h1.amplify{
   font-family: 'Raleway', sans-serif;
 	font-weight: 800;
-  font-size: 3.25em;
+  font-size: 2.5em;
   letter-spacing: 0.025rem;
   color: black;
 }
@@ -24,7 +24,7 @@ h2.amplify{
 
 h3.amplify{
   font-family: 'Raleway', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
   font-size: 0.875em;
   letter-spacing: 0.01rem;
   color: #53D8FB;
@@ -62,7 +62,7 @@ ul.amplify{
 }
 
 ul.amplify li{
-  color: #53D8FB;
+  color: black;
   font-weight: 700;
 }
 

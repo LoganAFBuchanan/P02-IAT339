@@ -61,6 +61,7 @@ header.grid-row{
 .grid-row.artists{
   -ms-flex-pack: distribute;
       justify-content: space-around;
+      display:flex;
 }
 
 .grid-row.events .col.one-2{

@@ -49,6 +49,26 @@ h4{
   margin: 0.25rem 0 0 0;
 }
 
+h5{
+  display:inline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  color: #53D8FB;
+  margin:0.5rem 0;
+  padding: 0.25rem 0.7rem 0rem 0rem;
+  border: 0;
+}
+
+.banner h5{
+  color: white;
+}
+
+.banner .button-info:hover{
+  color:white;
+}
+
 a{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;

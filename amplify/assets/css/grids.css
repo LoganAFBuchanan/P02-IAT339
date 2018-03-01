@@ -45,8 +45,12 @@ header .one-1{
 
 /* Maintains flex on header nav due to fixed positioning causing display bugs */
 header.grid-row{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /* These rules are specifically applied to the artists page to allow flex wrap to perform as expected */
@@ -55,12 +59,14 @@ header.grid-row{
 }
 
 .grid-row.artists{
-  justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .grid-row.events .col.one-2{
   padding:1rem;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media(min-width:25em) and (max-width:55em){ /* 400px */
@@ -71,7 +77,9 @@ header.grid-row{
 
 @media(min-width:55em){ /* 880px */
   .col.one-2.right-image{
-    order:2;
+    -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+            order:2;
     padding-right:2rem;
   }
 
@@ -84,12 +92,18 @@ header.grid-row{
   }
 
   .grid-row{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .grid-row.main{
-    justify-content: unset;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
     margin-top:0;
   }
 

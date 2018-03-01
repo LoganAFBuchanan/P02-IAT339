@@ -55,7 +55,7 @@ header.grid-row{
 }
 
 .grid-row.artists{
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .grid-row.events .col.one-2{

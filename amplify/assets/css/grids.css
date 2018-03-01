@@ -41,6 +41,7 @@ header.grid-row{
 header .one-1{
   position:fixed;
   background-color:white;
+  top:0;
   z-index:100;
 }
 

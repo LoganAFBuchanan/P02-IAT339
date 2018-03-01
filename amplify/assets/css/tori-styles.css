@@ -57,7 +57,7 @@ em{
 /* styling for left content-right image page template (about, membership, contact pages) */
 .grid-row.content-image{
   padding:0rem 2rem 5rem;
-  margin-top:5rem;
+  margin-top:10rem;
   /* sets max width (same as Logan's styling) + centers content when exceeded */
   max-width:93.75rem; /* 1500 px */
   margin-left: auto;
@@ -66,7 +66,7 @@ em{
 
 .grid-row.artists{
   padding:0rem 2rem 5rem;
-  margin-top:5rem;
+  margin-top:10rem;
   /* sets max width + centers content when exceeded */
   max-width:77.5rem; /* 1240 px */
   margin-left: auto;

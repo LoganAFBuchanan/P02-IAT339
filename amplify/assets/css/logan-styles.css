@@ -58,7 +58,7 @@ h2.logo{
 .button-tickets.more-button:hover{
   background: #4CC5E5;
   text-decoration: underline;
-  color:black;
+  color:white;
 }
 
 .event-list, .event-list-title {

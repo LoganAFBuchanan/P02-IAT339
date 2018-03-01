@@ -69,6 +69,10 @@ h2.logo{
   padding-bottom:0;
 }
 
+/* Form Styles START */
+
+
+
 form h3{
   margin-bottom:1rem;
 }
@@ -76,6 +80,12 @@ form h3{
 .payment-form .grid-row{
   margin-top:1.5rem;
 }
+
+.payment-form{
+  width:100%;
+}
+
+/* Form Styles END */
 
 .grid-row.events .col.one-2{
   padding:1rem;
@@ -92,7 +102,7 @@ form h3{
 
   /* Sets a max width and centers the list when the display gets too large */
   .grid-row.events{
-    padding:0rem 2rem 5rem;
+    padding:0rem 2rem 0rem;
     max-width:93.75rem; /* 1200 px */
     margin-left: auto;
     margin-right: auto;

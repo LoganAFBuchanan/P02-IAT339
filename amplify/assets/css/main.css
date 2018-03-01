@@ -631,6 +631,17 @@ form h3{
   }
 }
 
+@media(min-width: 40em){
+  .events-page.content{
+    padding:2rem 2rem 2rem 2rem;
+  }
+}
+
+@media(max-width: 40em){
+  .content{
+    margin-top:0;
+  }
+}
 
 @media(min-width: 60em){ /*  */
   nav.nav-main {
@@ -772,17 +783,5 @@ form h3{
     width:20rem;
     margin-bottom:3rem;
     position: relative;
-  }
-}
-
-@media(min-width: 40em){
-  .events-page.content{
-    padding:2rem 2rem 2rem 2rem;
-  }
-}
-
-@media(max-width: 40em){
-  .content{
-    margin-top:0;
   }
 }
